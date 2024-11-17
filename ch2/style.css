@@ -1,6 +1,42 @@
-
+body{
+    background-color: #161b22;
+}
 img{
-    width: 10%;
-    height: 10%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    display: block;
+    margin-top: 30px;
+    border: 2px solid whitesmoke;
+
+}
+
+.intro h2{
+    color: rgb(145, 152, 161);
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 2500;
+    line-height: 24px;
+    display: block;
+}
+.intro h4{
+    color: rgb(145, 152, 161);
+    font-size: 20px;
+    margin-top: -15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.edit-btn{
+    padding: 5px 70px;
+    border-radius: 6px;
+    border: 2px solid #3d444d;
+    background-color: #212830;
+    font-size: 12px;
+    color: aliceblue;
+    transition-duration: 0.4s;
+
+}
+.edit-btn:hover{
+    background-color: #3d444d;
 }
