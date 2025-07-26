@@ -1,67 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-:root {
-  /* Font size */
-  --font-size-s: 0.9rem;
-  --font-size-n: 1rem;
-  --font-size-m: 1.12rem;
-  --font-size-1: 1.5rem;
-  --font-size-xl: 2rem;
-  --font-size-xxl: 2.3rem;
-
-  /* Colors */
-  --white-color: #fff;
-  --dark-color: #252525;
-  --primary-color: #3b141c;
-  --secondary-color: #f3961c;
-  --Light-pink-color: #faf4f5;
-  --medium-gray-color: #ccc;
-
-  /*Font - weight. */
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
-  --font-weight-semibold: 600;
-  /* Border radius */
-  --border-radius-s: 8px;
-  --border-radius-m: 30px;
-  --border-radius-circle: 50%;
-
-  /* Site max width */
-  --site-max-width: 1300px;
-}
-/* style for whole page */
-ul {
-  list-style: none;
+  font-family: "Segoe UI", sans-serif;
 }
 
-a {
-  text-decoration: none;
+body {
+  background-color: #ececf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  background: none;
-}
-
-img {
+.chat-container {
   width: 100%;
+  max-width: 500px;
+  height: 90vh;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 header {
-  background-color: var(--primary-color);
-}
-
-.navbar .nav-logo .logo-text {
-  color: var(--white-color);
-}
-
-.navbar .nav-menu .nav-link {
-  color: var(--white-color);
+  padding: 15px;
+  background: #10a37f;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
